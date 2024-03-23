@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.disabled{
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+    color: red;
+}
